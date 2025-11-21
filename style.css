@@ -9,3 +9,24 @@ body
     color: white;
     background-color: black;
 }
+@keyframes myAnimation
+{
+    0% {background-color: red;}
+    10% {background-color: yellow;}
+    20% {background-color: orange;}
+    30% {background-color: greenyellow;}
+    40% {background-color: green;}
+    50% {background-color: cyan;}
+    60% {background-color:  blue;}
+    70% {background-color: blueviolet;}
+    80% {background-color: purple;}
+    90% {background-color: rebeccapurple;}
+    100% {background-color: red;}
+}
+div 
+{
+    width: 100px;
+    height: 100px;
+    animation-name: myAnimation;
+    animation-duration: 10s;
+}
