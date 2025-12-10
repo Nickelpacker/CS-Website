@@ -12,6 +12,13 @@ body {
     justify-content: center;
     align-items: center;
 }
+.card-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+}
 .card {
 width: 250px;
 height: 250px;
@@ -22,8 +29,9 @@ perspective: 1000px;
     font-weight: 900;
     text-align: center;
     margin: 0;
+    padding: .5rem;
 }
-img{
+.card img{
     border-radius: 1rem;
     display: flex;
 }
